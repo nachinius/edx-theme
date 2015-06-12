@@ -101,14 +101,14 @@ $button-archive-color: $gray-3;
 $shadow-color: $gray;
 
 // actions
-$button-bg-image: none;
+$button-bg-image: $gray-3; //   none;
 $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
 $action-primary-bg: $main-color;
 $action-primary-fg: $gray-2;
-$action-primary-shadow: none;
+$action-primary-shadow: $gray-3; //   none;
 
 // focused - hover/active pseudo states
 $action-primary-focused-bg: $dark-color;
@@ -117,9 +117,9 @@ $action-primary-focused-fg: $gray-1;
 // current or active navigation item
 $action-primary-active-bg: $dark-color;
 $action-primary-active-fg: $gray-1;
-$action-primary-active-shadow: none;
+$action-primary-active-shadow: $gray-3; //   none;
 $action-primary-active-focused-fg: $gray-2;
-$action-primary-active-focused-shadow: none;
+$action-primary-active-focused-shadow: $gray-3; //   none;
 
 // disabled
 $action-primary-disabled-bg: $gray-75;
@@ -130,7 +130,7 @@ $action-prmary-disabled-fg: $gray-1;
 // actions - secondary
 $action-secondary-bg: $secondary;
 $action-secondary-fg: $gray;
-$action-secondary-shadow: none;
+$action-secondary-shadow: $gray-3; //   none;
 
 // focused - hover/active pseudo states
 $action-secondary-focused-bg: $secondary-50;
@@ -139,9 +139,9 @@ $action-secondary-focused-fg: $gray;
 // current or active navigation item
 $action-secondary-active-bg: $secondary-50;
 $action-secondary-active-fg: $gray;
-$action-secondary-active-shadow: none;
+$action-secondary-active-shadow: $gray-3; //   none;
 $action-secondary-active-focused-fg: $gray-75;
-$action-secondary-active-focused-shadow: none;
+$action-secondary-active-focused-shadow: $gray-3; //   none;
 
 // disabled
 $action-secondary-disabled-bg: $gray-3;
@@ -159,13 +159,13 @@ $sidebar-color: $gray-1;
 $homepage__header--gradient__color--alpha: $secondary-25;
 $homepage__header--gradient__color--bravo: $secondary-25;
 $homepage__header--background: $secondary-25;
-$dashboard-profile-header-image: none;
+$dashboard-profile-header-image: $gray-3; //   none;
 $dashboard-profile-header-color: $secondary-25;
 $dashboard-profile-color: $gray-3;
 $dot-color: $main-bg-60;
 
 $course-bg-color: $gray-3;
-$course-bg-image: none;
+$course-bg-image: $gray-3; //   none;
 $account-content-wrapper-bg: $gray-1;
 
 $course-profile-bg: $gray-1;
@@ -190,10 +190,10 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 $homepage-bg-image: #ccc;// url('../themes/default/images/sunrise.jpg');
 
-$login-banner-image: none;
-$register-banner-image: none;
+$login-banner-image: $gray-3; //   none;
+$register-banner-image: $gray-3; //   none;
 
-$video-thumb-url: none; // git'../themes/default/images/edx.png';
+$video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
 
 //-----------------
 //  Mixin Styles
