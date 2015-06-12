@@ -236,3 +236,8 @@ $video-thumb-url: none; // git'../themes/default/images/edx.png';
     }
   }
 }
+
+.sequence-nav ol li a {
+  padding: 13px 0 !important;
+  height: inherit !important;
+}
