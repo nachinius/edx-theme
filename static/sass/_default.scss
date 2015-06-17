@@ -43,11 +43,11 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Med');
-@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Bold');
-@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Reg');
-@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Lt');
-@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-SmBd');
+//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Med');
+//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Bold');
+//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Reg');
+//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Lt');
+//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-SmBd');
 $theme-sans-font: 'FoundersGroteskXCond';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
@@ -276,6 +276,12 @@ a.cta.cta-register {
 .form-actions {
   button {
     font-family: $theme-sans-font;
+  }
+}
+
+.meta-info {
+  p {
+    font-style: normal !important;
   }
 }
 
