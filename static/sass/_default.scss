@@ -249,6 +249,7 @@ $video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
 }
 
 .sequence-nav ol li a {
+  max-height: 43px !important;
   padding: 11px 0 !important;
   height: inherit !important;
 }
