@@ -190,7 +190,7 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: #ccc;// url('../themes/default/images/sunrise.jpg');
+$homepage-bg-image: url('../themes/default/images/background.jpg');
 
 $login-banner-image: $gray-3; //   none;
 $register-banner-image: $gray-3; //   none;
@@ -212,6 +212,21 @@ $video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
     text-align: right;
 }
 
+// custom variables and styles
+
+$base-font-color: grey;
+$baseFontColor: $base-font-color;
+$lighter-base-font-color: $base-font-color;
+$text-color: grey;
+
+.home {
+  header {
+    .outer-wrapper {
+      opacity: 0.75;
+    }
+  }
+}
+
 
 .course-preview {
   background-color: #cccccc;
@@ -221,7 +236,9 @@ $video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
   }
   hgroup {
     h2 {
-      font-size: 0.97em !important;
+      font-family: FoundersGroteskXCond-Med, $sans-serif;
+      font-size: 1em !important;
+      font-weight: inherit !important;
       color: white !important;
     }
   }
@@ -239,8 +256,11 @@ $video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
   hgroup {
     width:inherit;
     text-align: center !important;
+    padding:0 !important;
+    margin: 30px 0 0 0 !important;
 
     h1 {
+      font-family: FoundersGroteskXCond-SmBd, $sans-serif;
       color: #f89322;
       font-size: 38pt;
       text-align: center !important;
@@ -257,6 +277,7 @@ $video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
 .nav-colophon {
   li {
     a {
+      font-family: FoundersGroteskXCond-Med, $sans-serif;
       color: #bdc0c2 !important;
     }
   }
@@ -271,6 +292,7 @@ span.course-number {
 }
 
 a.cta.cta-register {
+  font-family: FoundersGroteskXCond-Med, $sans-serif !important;
   color: white !important;
 }
 
@@ -282,8 +304,13 @@ a.cta.cta-register {
 
 .meta-info {
   p {
+    font-family: FoundersGroteskXCond-Med, $sans-serif !important;
     font-style: normal !important;
   }
+}
+
+.info-link {
+  font-style: normal !important;
 }
 
 .instructions {
@@ -291,7 +318,17 @@ a.cta.cta-register {
   font-weight: 200 !important;
 }
 
-$base-font-color: grey;
-$baseFontColor: $base-font-color;
-$lighter-base-font-color: $base-font-color;
-$text-color: grey;
+.desc {
+  h2 {
+    font-family: FoundersGroteskXCond-Med, $sans-serif !important;
+  }
+  p {
+    font-family: FoundersGroteskXCond-Lt, $sans-serif !important;
+  }
+}
+
+.custom_container_content {
+  p {
+    font-family: 11pt Helvetica, $sans-serif;
+  }
+}
