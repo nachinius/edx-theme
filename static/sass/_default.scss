@@ -285,6 +285,11 @@ a.cta.cta-register {
   }
 }
 
+.instructions {
+  font-family: normal $theme-sans-font !important;
+  font-weight: 200 !important;
+}
+
 $base-font-color: grey;
 $baseFontColor: $base-font-color;
 $lighter-base-font-color: $base-font-color;
