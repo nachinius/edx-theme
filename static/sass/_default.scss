@@ -43,12 +43,7 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Med');
-//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Bold');
-//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Reg');
-//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-Lt');
-//@include font-face('FoundersGroteskXCond', '../fonts/Founders/FoundersGroteskXCond-SmBd');
-$theme-sans-font: 'FoundersGroteskXCond';
+$theme-sans-font: 'Open Sans';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
@@ -227,22 +222,43 @@ $text-color: grey;
   }
 }
 
+// Courseware ------------------------------
 
 .course-preview {
   background-color: #cccccc;
   background-image: none !important;
+
   .info-link{
     color:white !important;
+    font-style: normal !important;
+    padding-top: 5px !important;
   }
   hgroup {
     h2 {
-      font-family: FoundersGroteskXCond-Med, $sans-serif;
+      font-family: FoundersGroteskXCond-Med !important;
       font-size: 1em !important;
       font-weight: inherit !important;
       color: white !important;
+
+      span {
+        font-family: FoundersGroteskXCond-Med !important;
+      }
     }
   }
 }
+//                                   ------------------------------ Courseware
+.bottom {
+  span {
+    font-family: FoundersGroteskXCond-Med !important;
+  }
+}
+
+.references {
+  span {
+    font-family: FoundersGroteskXCond-Med !important;
+  }
+}
+
 
 .outer-wrapper {
   max-width: 100% !important;
@@ -260,7 +276,7 @@ $text-color: grey;
     margin: 30px 0 0 0 !important;
 
     h1 {
-      font-family: FoundersGroteskXCond-SmBd, $sans-serif;
+      font-family: FoundersGroteskXCond-SmBd !important;
       color: #f89322;
       font-size: 38pt;
       text-align: center !important;
@@ -277,7 +293,7 @@ $text-color: grey;
 .nav-colophon {
   li {
     a {
-      font-family: FoundersGroteskXCond-Med, $sans-serif;
+      font-family: FoundersGroteskXCond-Med !important;
       color: #bdc0c2 !important;
     }
   }
@@ -296,11 +312,15 @@ a.cta.cta-register {
   color: white !important;
 }
 
-.form-actions {
-  button {
-    font-family: $theme-sans-font;
-  }
+a.cta.cta-login {
+  font-family: FoundersGroteskXCond-Med, $sans-serif !important;
 }
+
+//.form-actions {
+//  button {
+//    font-family: $theme-sans-font;
+//  }
+//}
 
 .meta-info {
   p {
@@ -309,26 +329,23 @@ a.cta.cta-register {
   }
 }
 
-.info-link {
-  font-style: normal !important;
-}
-
-.instructions {
-  font-family: normal $theme-sans-font !important;
-  font-weight: 200 !important;
-}
+//.instructions {
+//  font-family: normal $theme-sans-font !important;
+//  font-weight: 200 !important;
+//}
 
 .desc {
   h2 {
     font-family: FoundersGroteskXCond-Med, $sans-serif !important;
   }
   p {
-    font-family: FoundersGroteskXCond-Lt, $sans-serif !important;
+    font-family: FoundersGroteskXCond, $sans-serif !important;
   }
 }
 
-.custom_container_content {
-  p {
-    font-family: 11pt Helvetica, $sans-serif;
-  }
+p {
+  font-family: Helvetica, Arial, sans-serif !important !important;
+}
+a {
+  font-family: Helvetica, Arial, sans-serif !important !important;
 }
