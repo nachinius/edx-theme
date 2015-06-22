@@ -236,17 +236,28 @@ $text-color: grey;
   hgroup {
     h2 {
       font-family: FoundersGroteskXCond-Med !important;
-      font-size: 1em !important;
+      font-size: 10pt !important;
       font-weight: inherit !important;
       color: white !important;
 
       span {
         font-family: FoundersGroteskXCond-Med !important;
+        font-size: 10pt !important;
       }
     }
   }
 }
 //                                   ------------------------------ Courseware
+
+.nav-courseware {
+  li {
+    .cta {
+      padding: 12px 20px 6px !important;
+    }
+  }
+}
+
+
 .bottom {
   span {
     font-family: FoundersGroteskXCond-Med !important;
@@ -256,6 +267,7 @@ $text-color: grey;
 .references {
   span {
     font-family: FoundersGroteskXCond-Med !important;
+    font-size: 13pt !important;
   }
 }
 
@@ -277,7 +289,7 @@ $text-color: grey;
 
     h1 {
       font-family: FoundersGroteskXCond-SmBd !important;
-      color: #f89322;
+      color: #ec6a12;
       font-size: 38pt;
       text-align: center !important;
     }
@@ -294,13 +306,10 @@ $text-color: grey;
   li {
     a {
       font-family: FoundersGroteskXCond-Med !important;
+      font-size: 13pt !important;
       color: #bdc0c2 !important;
     }
   }
-}
-
-a.user-link {
-  font-size: 20px !important;
 }
 
 span.course-number {
@@ -309,11 +318,13 @@ span.course-number {
 
 a.cta.cta-register {
   font-family: FoundersGroteskXCond-Med, $sans-serif !important;
+  font-size: 13pt !important;
   color: white !important;
 }
 
 a.cta.cta-login {
   font-family: FoundersGroteskXCond-Med, $sans-serif !important;
+  font-size: 13pt !important;
 }
 
 //.form-actions {
@@ -340,12 +351,21 @@ a.cta.cta-login {
   }
   p {
     font-family: FoundersGroteskXCond, $sans-serif !important;
+    font-size: 11pt !important;
+  }
+}
+
+h1, h2 {
+  font-family: FoundersGroteskXCond-Med !important;
+
+  span {
+    font-family: FoundersGroteskXCond-Med !important;
   }
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif !important !important;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 a {
-  font-family: Helvetica, Arial, sans-serif !important !important;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
