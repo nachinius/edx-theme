@@ -212,19 +212,23 @@
 // Override CSS
 //-----------------
 html {
-    background-color: lighten(#96ABD8, 15%) !important;
+    background-color: lighten(#96ABD8, 10%) !important;
 }
 
 body {
-    background-color: lighten(#96ABD8, 15%) !important;
+    background-color: lighten(#96ABD8, 10%) !important;
 }
 
 .wrapper-footer {
-    background: lighten(#96ABD8, 15%) !important;
+    background: lighten(#96ABD8, 10%) !important;
 }
 
 header.global {
-    background: lighten(#96ABD8, 15%) !important;
+    background: lighten(#96ABD8, 10%) !important;
+}
+
+header.global .user>.primary>a.dropdown {
+    padding: 4px 10px 12px 10px;
 }
 
 ////-----------------
