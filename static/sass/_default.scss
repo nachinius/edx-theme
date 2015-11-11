@@ -373,3 +373,14 @@ a {
 .logo img {
   margin-top: -2px !important;
 }
+
+.find-courses {
+  header.search {
+    margin-top: 0 !important;
+    height: 460px !important;
+
+    .inner-wrapper {
+      padding-top: 240px !important;
+    }
+  }
+}
