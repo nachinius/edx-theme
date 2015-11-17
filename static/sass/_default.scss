@@ -388,3 +388,13 @@ a {
 .hero {
   max-height: 201px !important;
 }
+
+.user {
+  li.primary {
+    height: 32px !important;
+
+    a {
+      height: 100% !important;
+    }
+  }
+}
