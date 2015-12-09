@@ -382,10 +382,29 @@ h1, h2 {
   header.search {
     margin-top: 0 !important;
     height: 460px !important;
+    box-shadow: none !important;
 
     .inner-wrapper {
       padding-top: 240px !important;
+      max-width: none !important;
     }
+
+    .inner-wrapper.main-search {
+        h2 {
+          max-height: 47px !important;
+          text-align: center;
+          text-transform: none !important;
+          color: #ec6a12 !important;
+          font-family: FoundersGroteskXCond-SmBd !important;
+          font-size: 38pt !important;
+        }
+        hgroup {
+          width: 100% !important;
+          opacity: 0.75 !important;
+          padding: 35px 0 !important;
+          height: 48px !important;
+        }
+      }
   }
 }
 
@@ -409,6 +428,11 @@ h1, h2 {
 }
 
 header.global {
+  nav {
+    padding: 7px 0 0 !important;
+  }
+  box-shadow: none !important;
+  height: 58px !important;
   .user {
     a.user-link {
       font-size: 22px !important;
