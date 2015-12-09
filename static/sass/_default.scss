@@ -434,16 +434,16 @@ a.enter-course {
 
 .field {
   input {
-    font-size: 17px !important;
+    font-size: 20px !important;
   }
   .required {
     label {
-      font-size: 17px !important;
+      font-size: 20px !important;
       font-weight: 600;
     }
   }
   .tip {
-    font-size: 17px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -451,19 +451,26 @@ a.enter-course {
   form {
     .field.required {
       label {
-        font-size: 18px !important;
+        font-size: 20px !important;
       }
     }
   }
     a {
-      font: normal 17px/1em FoundersGroteskXCond !important;
+      font: normal 20px/1em FoundersGroteskXCond !important;
     }
 }
 
 .view-login {
   .login {
     p {
-      font: normal 17px/1em FoundersGroteskXCond !important;
+      font: normal 20px/1em FoundersGroteskXCond !important;
+    }
+    aside {
+      .cta {
+        h3 {
+          font-size: 21px !important;
+        }
+      }
     }
   }
 }
@@ -474,13 +481,29 @@ a.enter-course {
 
 .view-register {
   .register {
+    aside {
+      .cta {
+        h3 {
+          font-size: 21px !important;
+        }
+      }
+    }
     form {
       .instructions {
         font: normal 20px FoundersGroteskXCond !important;
       }
     }
     p {
-      font: normal 17px/1em FoundersGroteskXCond !important;
+      font: normal 20px/1em FoundersGroteskXCond !important;
+    }
+  }
+  .introduction {
+    header {
+      .title {
+        .title-super {
+          font-size: 30px !important;
+        }
+      }
     }
   }
 }
@@ -489,23 +512,23 @@ a.enter-course {
   form {
     .field {
       label {
-          font-size: 18px !important;
+          font-size: 20px !important;
         }
       .required {
         label {
-          font-size: 18px !important;
+          font-size: 20px !important;
         }
       }
       input {
-        font-size: 17px !important;
+        font-size: 20px !important;
       }
       .tip {
-        font-size: 17px !important;
+        font-size: 20px !important;
       }
     }
     .field.select {
       select {
-        font-size: 18px !important;
+        font-size: 20px !important;
       }
     }
   }
@@ -514,6 +537,7 @@ a.enter-course {
 .cta-login {
   .cta-login-action {
     color: #808080 !important;
+    font-size: 20px !important;
   }
   .cta-login-action:hover {
     color: #fff !important;
@@ -521,6 +545,9 @@ a.enter-course {
     border: 1px solid #808080 !important;
   }
 }
+
+
+
 // --------register page ------------
 
 // -------- Login Dashboard  ---------
@@ -530,22 +557,22 @@ a.enter-course {
     .user-info>ul {
       li {
         span.title {
-          font-size: 16px !important;
+          font-size: 20px !important;
         }
       }
     }
   }
   .my-courses {
     a.email-settings, a.unenroll {
-      font-size: 18px !important;
+      font-size: 20px !important;
     }
     .course {
       .info>hgroup {
         .university {
-          font-size: 18px !important;
+          font-size: 20px !important;
         }
         .date-block {
-          font-size: 17px !important;
+          font-size: 20px !important;
         }
       }
     }
@@ -559,7 +586,7 @@ a.enter-course {
 .ui-accordion {
   .ui-accordion-header {
     a {
-      font-size: 19px !important;
+      font-size: 20px !important;
     }
   }
 }
@@ -570,11 +597,11 @@ a.enter-course {
       li {
         a {
           p.subtitle {
-            font-size: 17px !important;
+            font-size: 20px !important;
           }
           p {
             font-weight: normal !important;
-            font-size: 18px !important;
+            font-size: 20px !important;
           }
         }
       }
@@ -613,7 +640,7 @@ div.info-wrapper {
 .instructor-dashboard-content-2 {
   input[type="button"] {
     font-weight: normal !important;
-    font-size: 1em !important;
+    font-size: 20px !important;
   }
   .instructor-nav {
     .nav-item {
@@ -630,7 +657,7 @@ div.info-wrapper {
       .auth-list-container {
         .member-list-widget {
           .info {
-            font-size: 19px !important;
+            font-size: 20px !important;
           }
           .member-list {
             td {
@@ -649,7 +676,7 @@ label {
 
 .discussion-module {
   .discussion-show {
-    font-size: 17px !important;
+    font-size: 20px !important;
   }
   .new-post-btn {
     font-size: 21px !important;
