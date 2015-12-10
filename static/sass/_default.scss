@@ -43,7 +43,7 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-$f-sans-serif: $founder;
+//$f-sans-serif: $founder;
 //
 //$theme-sans-font: 'Open Sans';
 //$sans-serif: $theme-sans-font, $sans-serif;
@@ -237,15 +237,15 @@ $text-color: grey;
   }
   hgroup {
     h2 {
-      font-family: FoundersGroteskXCond-Med !important;
-      font-size: 14pt !important;
-      font-weight: normal !important;
+      font-family: 'Open Sans' !important;
+      //font-size: 14pt !important;
+      //font-weight: normal !important;
       color: white !important;
 
       span {
-        font-family: FoundersGroteskXCond-Med !important;
-        font-size: 14pt !important;
-        font-weight: normal !important;
+        font-family: 'Open Sans' !important;
+        //font-size: 14pt !important;
+        //font-weight: normal !important;
       }
     }
   }
@@ -255,25 +255,25 @@ $text-color: grey;
 .nav-courseware {
   li {
     .cta {
-      padding: 12px 20px 6px !important;
+      font-weight: 600 !important;
     }
   }
 }
 
 
 
-//.bottom {
-//  span {
-//    font-family: FoundersGroteskXCond-Med !important;
-//  }
-//}
+.bottom {
+  span {
+    font-family: 'Open Sans' !important;
+  }
+}
 
-//.references {
-//  span {
-//    font-family: FoundersGroteskXCond-Med !important;
-//    font-size: 13pt !important;
-//  }
-//}
+.references {
+  span {
+    font-family: 'Open Sans' !important;
+    //font-size: 13pt !important;
+  }
+}
 
 
 .outer-wrapper {
@@ -309,8 +309,8 @@ $text-color: grey;
 .nav-colophon {
   li {
     a {
-      font-family: FoundersGroteskXCond-Med !important;
-      font-size: 13pt !important;
+      font-family: 'Open Sans' !important;
+      font-size: 14px !important;
       color: #bdc0c2 !important;
     }
   }
@@ -321,14 +321,15 @@ $text-color: grey;
 //}
 
 a.cta.cta-register {
-  font-family: FoundersGroteskXCond-Med !important;
-  font-size: 13pt !important;
+  font-family: 'Open Sans' !important;
+  font-size: 16px !important;
   color: white !important;
 }
 
 a.cta.cta-login {
-  font-family: FoundersGroteskXCond-Med, $sans-serif !important;
-  font-size: 13pt !important;
+  font-family: 'Open Sans' !important;
+  font-size: 16px !important;
+  color: white !important;
 }
 
 //.form-actions {
@@ -339,8 +340,8 @@ a.cta.cta-login {
 
 .meta-info {
   p {
-    font-family: FoundersGroteskXCond-Med !important;
-    font-style: normal !important;
+    font-family: 'Open Sans' !important;
+    //font-style: normal !important;
   }
 }
 
@@ -351,19 +352,19 @@ a.cta.cta-login {
 
 .desc {
   h2 {
-    font-family: FoundersGroteskXCond-Med, $sans-serif !important;
+    font-family: 'Open Sans' !important;
   }
   p {
-    font-family: FoundersGroteskXCond, $sans-serif !important;
-    font-size: 12pt !important;
+    font-family: 'Open Sans' !important;
+    //font-size: 12pt !important;
   }
 }
 
 h1, h2 {
-  font-family: FoundersGroteskXCond-Med !important;
+  font-family: 'Open Sans' !important;
 
   span {
-    font-family: FoundersGroteskXCond-Med !important;
+    font-family: 'Open Sans' !important;
   }
 }
 
@@ -435,13 +436,13 @@ header.global {
   height: 58px !important;
   .user {
     a.user-link {
-      font-size: 22px !important;
+      //font-size: 22px !important;
     }
   }
   .nav-global {
     li {
       a {
-        font-size: 21px !important;
+        //font-size: 21px !important;
       }
     }
   }
@@ -449,25 +450,25 @@ header.global {
 // ----------- Login Page ----------------
 
 button {
-  font: normal 22px/1em FoundersGroteskXCond !important;
+  font-family: 'Open Sans' !important;
 }
 
 a.enter-course {
-  font-size: 22px !important;
+  //font-size: 22px !important;
 }
 
 .field {
   input {
-    font-size: 20px !important;
+    //font-size: 20px !important;
   }
   .required {
     label {
-      font-size: 20px !important;
-      font-weight: 600;
+      //font-size: 20px !important;
+      //font-weight: 600;
     }
   }
   .tip {
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
 }
 
@@ -475,24 +476,25 @@ a.enter-course {
   form {
     .field.required {
       label {
-        font-size: 20px !important;
+        //font-size: 20px !important;
       }
     }
   }
     a {
-      font: normal 20px/1em FoundersGroteskXCond !important;
+      font-family: 'Open Sans' !important;
+      font-size: 14px !important;
     }
 }
 
 .view-login {
   .login {
     p {
-      font: normal 20px/1em FoundersGroteskXCond !important;
+      font-family: 'Open Sans' !important;
     }
     aside {
       .cta {
         h3 {
-          font-size: 21px !important;
+          //font-size: 21px !important;
         }
       }
     }
@@ -508,24 +510,24 @@ a.enter-course {
     aside {
       .cta {
         h3 {
-          font-size: 21px !important;
+          //font-size: 21px !important;
         }
       }
     }
     form {
       .instructions {
-        font: normal 20px FoundersGroteskXCond !important;
+        font-family: 'Open Sans' !important;
       }
     }
     p {
-      font: normal 20px/1em FoundersGroteskXCond !important;
+      font-family: 'Open Sans' !important;
     }
   }
   .introduction {
     header {
       .title {
         .title-super {
-          font-size: 30px !important;
+          //font-size: 30px !important;
         }
       }
     }
@@ -536,23 +538,23 @@ a.enter-course {
   form {
     .field {
       label {
-          font-size: 20px !important;
+          //font-size: 20px !important;
         }
       .required {
         label {
-          font-size: 20px !important;
+          //font-size: 20px !important;
         }
       }
       input {
-        font-size: 20px !important;
+        //font-size: 20px !important;
       }
       .tip {
-        font-size: 20px !important;
+        //font-size: 20px !important;
       }
     }
     .field.select {
       select {
-        font-size: 20px !important;
+        //font-size: 20px !important;
       }
     }
   }
@@ -561,7 +563,7 @@ a.enter-course {
 .cta-login {
   .cta-login-action {
     color: #808080 !important;
-    font-size: 20px !important;
+    //font-size: 16px !important;
   }
   .cta-login-action:hover {
     color: #fff !important;
@@ -581,22 +583,22 @@ a.enter-course {
     .user-info>ul {
       li {
         span.title {
-          font-size: 20px !important;
+          //font-size: 20px !important;
         }
       }
     }
   }
   .my-courses {
     a.email-settings, a.unenroll {
-      font-size: 20px !important;
+      //font-size: 20px !important;
     }
     .course {
       .info>hgroup {
         .university {
-          font-size: 20px !important;
+          //font-size: 20px !important;
         }
         .date-block {
-          font-size: 20px !important;
+          //font-size: 20px !important;
         }
       }
     }
@@ -610,7 +612,7 @@ a.enter-course {
 .ui-accordion {
   .ui-accordion-header {
     a {
-      font-size: 20px !important;
+      //font-size: 20px !important;
     }
   }
 }
@@ -621,11 +623,11 @@ a.enter-course {
       li {
         a {
           p.subtitle {
-            font-size: 20px !important;
+            //font-size: 20px !important;
           }
           p {
-            font-weight: normal !important;
-            font-size: 20px !important;
+            //font-weight: normal !important;
+            //font-size: 20px !important;
           }
         }
       }
@@ -635,7 +637,7 @@ a.enter-course {
 
 .wrap-instructor-info {
   .instructor-info-action {
-    font-size: 14px !important;
+    //font-size: 14px !important;
   }
 }
 
@@ -643,7 +645,7 @@ a.enter-course {
   ol.course-tabs {
     li {
       a {
-        font-size: 22px !important;
+        //font-size: 22px !important;
       }
     }
   }
@@ -654,7 +656,7 @@ div.info-wrapper {
     ol {
       li {
         a {
-          font-size: 16px !important;
+          //font-size: 16px !important;
         }
       }
     }
@@ -663,13 +665,13 @@ div.info-wrapper {
 
 .instructor-dashboard-content-2 {
   input[type="button"] {
-    font-weight: normal !important;
-    font-size: 20px !important;
+    //font-weight: normal !important;
+    //font-size: 20px !important;
   }
   .instructor-nav {
     .nav-item {
       a {
-        font-size: 1.2em !important;
+        //font-size: 1.2em !important;
       }
     }
   }
@@ -681,11 +683,11 @@ div.info-wrapper {
       .auth-list-container {
         .member-list-widget {
           .info {
-            font-size: 20px !important;
+            //font-size: 20px !important;
           }
           .member-list {
             td {
-              font-size: 1em !important;
+              //font-size: 1em !important;
             }
           }
         }
@@ -695,31 +697,31 @@ div.info-wrapper {
 }
 
 label {
-  font-size: 1.2em !important;
+  //font-size: 1.2em !important;
 }
 
 .discussion-module {
   .discussion-show {
-    font-size: 20px !important;
+    //font-size: 20px !important;
   }
   .new-post-btn {
-    font-size: 21px !important;
+    //font-size: 21px !important;
   }
 }
 
 .openassessment {
   .openassessment__promt__copy {
-    font-size: 20px !important;
+    //font-size: 20px !important;
   }
   .step--response {
     .response__submission__status__title {
-      font: normal 20px FoundersGroteskXCond !important;
+      font-family: 'Open Sans' !important;
     }
   }
   .openassessment__steps__step {
     .step__status {
       .copy {
-        font: normal 20px FoundersGroteskXCond !important;
+        font-family:'Open Sans' !important;
       }
     }
     .step__header {
@@ -735,7 +737,7 @@ label {
     li {
       a {
         span.copy {
-          font: normal 20px FoundersGroteskXCond !important;
+          font-family: 'Open Sans' !important;
         }
       }
     }
@@ -745,47 +747,47 @@ label {
 div.course-wrapper {
   section.course-content {
     p {
-      font-size: 20px !important;
+      //font-size: 20px !important;
     }
   }
 }
 
 .wrapper--xblock {
   li {
-    font-size: 20px !important;
+    //font-size: 20px !important;
   }
   .field {
     .tip {
-      font: normal 20px FoundersGroteskXCond !important;
+      font-family: 'Open Sans' !important;
     }
   }
 }
-//
-//.list {
-//  .list--actions {
-//    .list--action__item {
-//      a {
-//        span.copy {
-//          font: normal 20px FoundersGroteskXCond !important;
-//        }
-//      }
-//    }
-//  }
-//}
-//
-//.action {
-//  .action--submit {
-//    .step--response__submit {
-//      .copy {
-//        font: normal 20px FoundersGroteskXCond !important;
-//      }
-//      .is--disabled {
-//        .copy {
-//          font: normal 20px FoundersGroteskXCond !important;
-//        }
-//      }
-//    }
-//  }
-//}
+
+.list {
+  .list--actions {
+    .list--action__item {
+      a {
+        span.copy {
+          font-family: 'Open Sans' !important;
+        }
+      }
+    }
+  }
+}
+
+.action {
+  .action--submit {
+    .step--response__submit {
+      .copy {
+        font-family: 'Open Sans' !important;
+      }
+      .is--disabled {
+        .copy {
+          font-family: 'Open Sans' !important;
+        }
+      }
+    }
+  }
+}
 
 // --------- login courses page --------
