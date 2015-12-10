@@ -526,8 +526,8 @@ a.enter-course {
   .introduction {
     header {
       .title {
-        .title-super {
-          //font-size: 30px !important;
+        .title-sub {
+          font-size: 18px !important;
         }
       }
     }
@@ -536,10 +536,24 @@ a.enter-course {
 
 .register {
   form {
-    .field {
-      label {
-          //font-size: 20px !important;
-        }
+    .group-form-personalinformation {
+      .field-yob {
+        display: inherit !important;
+        margin-bottom: 20px !important;
+      }
+      //.field-education-level {
+      //  display: inherit !important;
+      //  margin-bottom: 10px !important;
+      //}
+      //.field-gender {
+      //  display: inherit !important;
+      //  margin-bottom: 10px !important;
+      //}
+    }
+    .field-group {
+    //  .field {
+    //      float: none !important;
+    //    }
       .required {
         label {
           //font-size: 20px !important;
@@ -789,5 +803,11 @@ div.course-wrapper {
     }
   }
 }
+
+select {
+  font-family: 'Open Sans' !important;
+}
+
+
 
 // --------- login courses page --------
