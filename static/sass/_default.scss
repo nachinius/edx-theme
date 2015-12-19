@@ -1,256 +1,79 @@
-/****************************************************************************************************
-*   Stanford Theming File
-*
-*   Contains all the theme color definitions for the Stanford Open Source MOOC Project
-*
-****************************************************************************************************/
-
-//-----------------
-//  Color variables (from Stanford palette unless noted)
-//-----------------
-
-//Main Color Variables
 $main-color: grey; //#f7691f;
 $dark-color: grey; //  #ea281f; //Link Color
 $light-color: $dark-color;// #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: $dark-color;// #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
-//Main BG Color Variables
 $main-bg: #e6e6e6; // #822537;
 $main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
 $main-bg-25: lighten($main-bg, 25%); 
 
-//Secondary Color Variables
 $secondary: #f2f2f2; // #b5a4b7;
 $secondary-50: lighten($secondary, 9%);
-$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
+$secondary-25: lighten($secondary, 20%);
 
-//Gray Color Variables
-$gray: grey; // #3f3f3f; //Main Text Color
-$gray-75: lighten($gray, 18.25%); //Lighter Text Color
-
-$gray-3: #cccccc; //#e9e9e9; //Block/Course BG Color
-$gray-2: #f2f2f2;
-$gray-1: #e6e6e6; // #fbfbfb; //Main BG Color
-$white: $gray-1;
-
-$black: #2e2e2e;
-$black-80: #585858;
-
-
-
-//-----------------
-//  Font Assignment
-//-----------------
-
-//$f-sans-serif: $founder;
-//
-//$theme-sans-font: 'Open Sans';
-//$sans-serif: $theme-sans-font, $sans-serif;
-//$body-font-family: $sans-serif;
-//
-//$theme-serif-font: $theme-sans-font, 'Crimson Text';
-//$serif: $theme-serif-font, $serif;
-
-
-
-
-//-----------------
-//  Theme Element Assignments
-//-----------------
-
-$body-bg: $gray-1;
-$container-bg: $gray-1;
-$login-register-bg: $gray-1;
-$content-wrapper-bg: $gray-1;
-$header-image: none;
-$header-bg: $secondary; // transparentize(lighten($secondary, 18.5%), .25);
-$courseware-header-image: none;
-$courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
-$footer-bg: $secondary; //$secondary-25;
-$courseware-footer-border: 1px solid $main-bg-60;
-$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
-$courseware-footer-margin: 50px;
-
-$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
-
-//$base-font-color: $black;
-//$lighter-base-font-color: $black-80;
-//$very-light-text: $gray-1;
-
-$link-color: $dark-color;
-$link-color-d1: $dark-color;
-$link-hover: $light-color;
-$site-status-color: $bg-color;
-
-$header-graphic-super-color: $dark-color;
-$header-graphic-sub-color: $lighter-base-font-color;
-
-$header-link-color: $dark-color;
-$header-link-hover: $light-color;
-
-$button-color: #666; // $main-color;
-$button-archive-color: $gray-3;
-
-$shadow-color: $gray;
-
-// actions
-$button-bg-image: $gray-3; //   none;
-$button-bg-color: $gray-3;
-$button-bg-hover-color: $gray-1;
-
-// actions - primary
-$action-primary-bg: $main-color;
-$action-primary-fg: $gray-2;
-$action-primary-shadow: $gray-3; //   none;
-
-// focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-color;
-$action-primary-focused-fg: $gray-1;
-
-// current or active navigation item
-$action-primary-active-bg: $dark-color;
-$action-primary-active-fg: $gray-1;
-$action-primary-active-shadow: $gray-3; //   none;
-$action-primary-active-focused-fg: $gray-2;
-$action-primary-active-focused-shadow: $gray-3; //   none;
-
-// disabled
-$action-primary-disabled-bg: $gray-75;
-$action-prmary-disabled-fg: $gray-1;
-
-
-
-// actions - secondary
-$action-secondary-bg: $secondary;
-$action-secondary-fg: $gray;
-$action-secondary-shadow: $gray-3; //   none;
-
-// focused - hover/active pseudo states
-$action-secondary-focused-bg: $secondary-50;
-$action-secondary-focused-fg: $gray;
-
-// current or active navigation item
-$action-secondary-active-bg: $secondary-50;
-$action-secondary-active-fg: $gray;
-$action-secondary-active-shadow: $gray-3; //   none;
-$action-secondary-active-focused-fg: $gray-75;
-$action-secondary-active-focused-shadow: $gray-3; //   none;
-
-// disabled
-$action-secondary-disabled-bg: $gray-3;
-$action-secondary-disabled-fg: $gray;
-
-//
-
-$border-color-1: $main-bg-60;
-$border-color-2: $main-bg-60;
-$border-color-3: $main-bg-60;
-$outer-border-color: $main-bg-60;
-
-$sidebar-color: $gray-1;
-
-$homepage__header--gradient__color--alpha: $secondary-25;
-$homepage__header--gradient__color--bravo: $secondary-25;
-$homepage__header--background: $secondary-25;
-$dashboard-profile-header-image: $gray-3; //   none;
-$dashboard-profile-header-color: $secondary-25;
-$dashboard-profile-color: $gray-3;
-$dot-color: $main-bg-60;
-
-$course-bg-color: $gray-3;
-$course-bg-image: $gray-3; //   none;
-$account-content-wrapper-bg: $gray-1;
-
-$course-profile-bg: $gray-1;
-$course-header-bg: transparentize($gray-1, .1);
-
-$sidebar-chapter-bg-top: transparentize($gray-1, .3);
-$sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
-$sidebar-chapter-bg: $gray-2;
-$sidebar-active-image: $gray-3;
-
-$form-bg-color: $gray-1;
-$modal-bg-color: $gray-1;
-
-//TOP HEADER IMAGE MARGIN
-$header_image_margin: -77px;
-
-//FOOTER MARGIN
 $footer_margin: ($baseline/4) 0;
 
-//-----------------
-//  CSS BG Images
-//-----------------
 $homepage-bg-image: url('../themes/default/images/background.jpg');
 
-$login-banner-image: $gray-3; //   none;
-$register-banner-image: $gray-3; //   none;
+$base-font-color: black;
+$baseFontColor: black;
+$lighter-base-font-color: black;
+$text-color: black;
+$font_base_color_custom: black;
+$body-line-height: black;
+$base-font-color: black;
+$baseFontColor: black;
+$base-font-color: black;
+$lighter-base-font-color: black;
+$very-light-text: black; // #ffffff
 
-$video-thumb-url: $gray-3; //   none; // git'../themes/default/images/edx.png';
+//custom colors --------------------------------------------
+$orange: #D46139;
+$dark-blue: #095179;
+$medium-blue: #1A6894;
+$dark-grey: #A3AAAE;
+$medium-grey: #CACED0;
+$light-grey: #D8DADB;
 
-//-----------------
-//  Mixin Styles
-//-----------------
-@mixin login_register_h1_style {
-    clip: auto !important;
-    height: 50px;
-    width: 550px;
-    top: 0;
-}
 
-@mixin footer_references_style {
-    margin: 0 !important;
-    text-align: right;
-}
-
-// custom variables and styles
-
-$base-font-color: grey;
-$baseFontColor: $base-font-color;
-$lighter-base-font-color: $base-font-color;
-$text-color: grey;
+$lighter-base-font-color: $baseFontColor;
+$header-bg: $dark-blue;
+$course-bg-color: white;
+$content-wrapper-bg: $medium-blue;
+$footer-bg: $dark-blue;
+$courseware-footer-border: $dark-grey;
+$courseware-footer-shadow: $dark-grey;
 
 .home {
   header {
+    border-bottom: 1px solid $dark-grey !important;
+    box-shadow: 0 1px 0 0 $dark-grey,inset 0 -1px 5px 0 rgba(0,0,0,0.1) !important;
     .outer-wrapper {
       opacity: 0.75;
     }
   }
+  background: $medium-blue !important;
 }
-
-// Courseware ------------------------------
 
 .course-preview {
   background-color: #cccccc;
   background-image: none !important;
 
   .info-link{
-    //color:white !important;
-    //font-style: normal !important;
     padding-top: 5px !important;
   }
   hgroup {
     h2 {
       font-family: 'Open Sans' !important;
       font-size: 14px !important;
-      //font-weight: normal !important;
       color: white !important;
 
       span {
         font-family: 'Open Sans' !important;
-        //font-size: 14pt !important;
-        //font-weight: normal !important;
       }
     }
   }
 }
-//                                   ------------------------------ Courseware
 
 .nav-courseware {
   li {
@@ -294,25 +117,65 @@ $text-color: grey;
     h1 {
       font-family: FoundersGroteskXCond-SmBd !important;
       text-transform: uppercase !important;
-      color: #ec6a12;
+      color: $orange;
       font-size: 38pt;
       text-align: center !important;
     }
   }
 }
+.xmodule_display.xmodule_SequenceModule {
+  nav.sequence-nav {
+  ol {
+    background-color: $dark-grey !important;
+    padding: 0 !important;
+    // height: 100% !important;
+    li {
+      //height: 100% !important;
+      padding: 0 !important;
+      a {
+        font-size: 16px !important;
+        color: black !important;
+        padding: 11px 0 !important;
+        height: 20px !important;
+      }
+      a.active {
+        background: $light-grey !important;
+        line-height: 1.125em;
+        //padding: 11px 0 !important;
+        height: inherit !important;
+        //display: table !important;
 
-.sequence-nav ol li a {
-  max-height: 43px !important;
-  padding: 11px 0 !important;
-  height: inherit !important;
+      }
+    }
+  }
+  ul {
+    li {
+      border: 1px solid $dark-grey !important;
+      background-color: $dark-grey !important;
+      background-image: none !important;
+    }
+  }
 }
+}
+
+.sequence-list-wrapper {
+  ol {
+    li {
+      a.active {
+        height: 42px !important;
+        padding: 11px 0 !important;
+      }
+    }
+  }
+}
+
 
 .nav-colophon {
   li {
     a {
       font-family: 'Open Sans' !important;
       font-size: 14px !important;
-      color: #bdc0c2 !important;
+      color: white !important;
     }
   }
 }
@@ -320,13 +183,13 @@ $text-color: grey;
 a.cta.cta-register {
   font-family: 'Open Sans' !important;
   font-size: 16px !important;
-  color: white !important;
+  color: black !important;
 }
 
 a.cta.cta-login {
   font-family: 'Open Sans' !important;
   font-size: 16px !important;
-  color: white !important;
+  color: black !important;
 }
 
 .meta-info {
@@ -355,9 +218,25 @@ h1, h2 {
 }
 .logo img {
   margin-top: -2px !important;
+
+}
+
+header.global.slim {
+  padding: 0 !important;
+  h1.logo {
+    margin: -4px 10px 0 0 !important;
+  }
 }
 
 .find-courses {
+  background: $medium-blue !important;
+  .courses {
+    .course {
+      .info {
+        background: white !important;
+      }
+    }
+  }
   header.search {
     margin-top: 0 !important;
     height: 460px !important;
@@ -373,7 +252,7 @@ h1, h2 {
           max-height: 47px !important;
           text-align: center;
           text-transform: uppercase !important;
-          color: #ec6a12 !important;
+          color: $orange !important;
           font-family: FoundersGroteskXCond-SmBd !important;
           font-size: 38pt !important;
         }
@@ -407,13 +286,41 @@ h1, h2 {
 }
 
 header.global {
+  .nav-global {
+    li {
+      a {
+        color: white !important;
+      }
+      a:hover {
+        color: white !important;
+      }
+    }
+  }
   nav {
     padding: 7px 0 0 !important;
+    li {
+      .cta {
+        background: $medium-grey !important;
+      }
+      .cta:hover {
+        background: $light-grey !important;
+      }
+    }
   }
   box-shadow: none !important;
+  border-bottom: 2px solid $dark-grey !important;
   height: 58px !important;
 }
-// ----------- Login Page ----------------
+
+header.global.slim {
+    h2 {
+      color: white !important;
+      text-shadow: none !important;
+      .provider {
+        color: white !important;
+      }
+    }
+  }
 
 button {
   font-family: 'Open Sans' !important;
@@ -422,27 +329,54 @@ button {
 .field {
   .tip {
     font-size: 14px !important;
+    color: black !important;
   }
 }
 
 .login {
-    a {
-      font-family: 'Open Sans' !important;
-      font-size: 14px !important;
-    }
+  a {
+    font-family: 'Open Sans' !important;
+    font-size: 14px !important;
+  }
+  a:link {
+    color: black !important;
+  }
+  .orn-plus {
+    color: white !important;
+  }
 }
+
+.form-actions {
+  button[type='submit'] {
+    background: $orange !important;
+    box-shadow: 0 2px 1px 0 $orange !important;
+  }
+}
+
 
 .view-login {
   .login {
     p {
       font-family: 'Open Sans' !important;
     }
+    aside {
+      .cta {
+        h3 {
+          color: black !important;
+        }
+      }
+    }
+  }
+  .introduction {
+    header {
+      .title {
+        .title-super {
+          color: black !important;
+        }
+      }
+    }
   }
 }
-
-// --------login page ------------
-
-// -- Register Page -------------
 
 .view-register {
   .register {
@@ -454,12 +388,23 @@ button {
     p {
       font-family: 'Open Sans' !important;
     }
+    aside {
+      .cta {
+        h3 {
+          color: black !important;
+        }
+      }
+    }
   }
   .introduction {
     header {
       .title {
         .title-sub {
           font-size: 18px !important;
+          color: black !important;
+        }
+        .title-super {
+          color: black !important;
         }
       }
     }
@@ -488,16 +433,6 @@ button {
   }
 }
 
-
-
-// --------register page ------------
-
-// -------- Login Dashboard  ---------
-
-// -------- login dashboard ----------
-
-// --------- Login Courses page --------
-
 .openassessment {
   .step--response {
     .response__submission__status__title {
@@ -505,6 +440,12 @@ button {
     }
   }
   .openassessment__steps__step {
+    .step__actions {
+      .action--submit {
+        background: $medium-blue !important;
+        border: 1px solid $medium-blue !important;
+      }
+    }
     .step__status {
       .copy {
         font-family:'Open Sans' !important;
@@ -513,7 +454,7 @@ button {
     .step__header {
       h2.step__title {
         .step__label {
-          color: #808080 !important;
+          color: black !important;
           font-weight: normal !important;
         }
       }
@@ -569,6 +510,179 @@ select {
   font-family: 'Open Sans' !important;
 }
 
+.highlighted-courses {
+  .courses {
+    .course {
+      border: 1px solid $dark-grey !important;
+      .info {
+        background: white !important;
+      }
+      header.course-preview {
+        border-bottom: 2px solid $dark-grey !important;
+      }
+    }
+  }
+}
+
+.wrapper-footer {
+  border-top: 2px solid $dark-grey !important;
+  footer {
+    a:hover {
+      border-bottom: 1px dotted white !important;
+      color: white !important;
+    }
+  }
+}
+
+.references {
+  span {
+    color: white !important;
+    a {
+      color: white !important;
+    }
+  }
+}
+
+.user-info {
+  ul {
+    li {
+      span {
+        color: black !important;
+      }
+    }
+  }
+}
+
+.dashboard {
+  .my-courses {
+    a.email-settings {
+      color: white !important;
+    }
+    a.unenroll {
+      color: white !important;
+    }
+    .course {
+      .info {
+        hgroup {
+          .university {
+            color: white !important;
+          }
+          .date-block {
+            color: white !important;
+          }
+          h3 {
+            a {
+              color: white !important;
+            }
+          }
+        }
+        .enter-course {
+          border: 1px solid $orange !important;
+          box-shadow: inset 0 1px 0 0 $orange !important;
+          background-color: $orange !important;
+          background-image: none !important;
+          text-shadow: 0 1px 0 $orange !important;
+        }
+      }
+    }
+  }
+}
+
+.my-courses {
+  header {
+    h2 {
+      color: white !important;
+    }
+  }
+}
+
+.wrapper-course-material {
+  ol.course-tabs {
+    li {
+      background: inherit !important;
+      border-radius: 4px !important;
+
+      a {
+        color: white !important;
+      }
+      a:hover {
+        background: $orange !important;
+      }
+      a.active {
+        box-shadow: 0 0px 0 rgba(255,255,255,0.5),0 1px 1px rgba(0,0,0,0.3) inset !important;
+        background: $orange !important;
+      }
+    }
+  }
+}
+
+.xmodule_display.xmodule_HtmlModule {
+  h2 {
+    color: $orange !important;
+  }
+}
 
 
-// --------- login courses page --------
+.right-shadow {
+  background: none !important;
+}
+
+.left-shadow {
+  background: none !important;
+}
+
+#content.content-wrapper {
+  background: $medium-blue !important;
+}
+.content-wrapper {
+  padding-bottom: 0 !important;
+}
+
+.course-index {
+  div#accordion {
+    h3.ui-accordion-header {
+      a {
+        color: black !important;
+      }
+    }
+    .chapter {
+      background: white !important;
+      border-bottom: 1px solid $dark-grey !important;
+      border-right: 1px solid $dark-grey !important;
+    }
+  }
+}
+
+.wrap-instructor-info {
+  .instructor-info-action:hover {
+    background: $light-grey !important;
+  }
+}
+
+.discussion-module {
+  .new-post-btn {
+    background: $medium-blue !important;
+    border: 1px solid $medium-blue !important;
+  }
+}
+
+.course-index {
+  background: white !important;
+}
+
+.wrapper-preview-menu {
+  background: $medium-blue !important;
+  .preview-actions {
+    .action-preview {
+      .action-preview-label {
+        color:white !important;
+      }
+    }
+  }
+}
+
+.theme-container {
+  background: white;
+  margin: 20px;
+  padding: 20px 0;
+}

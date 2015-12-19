@@ -4,8 +4,9 @@
 <%block name="pagetitle">${_("Contact")}</%block>
 
 
-<section class="register container">
-  <section class="contact-container">
+<section class="register container" style="padding: 1px 30px;">
+  <div class="theme-container">
+    <section class="contact-container">
     <div class="dashboard-notifications" tabindex="-1" style="padding-top: 10px;">
       %if messages:
         %for message in messages:
@@ -127,5 +128,6 @@
       </form>
     </div>
   </section>
+  </div>
 </section>
 
