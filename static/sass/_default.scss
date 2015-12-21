@@ -123,27 +123,17 @@ $courseware-footer-shadow: $dark-grey;
     }
   }
 }
-.xmodule_display.xmodule_SequenceModule {
-  nav.sequence-nav {
+
+nav.sequence-nav {
   ol {
     background-color: $dark-grey !important;
-    padding: 0 !important;
-    // height: 100% !important;
     li {
-      //height: 100% !important;
-      padding: 0 !important;
       a {
-        font-size: 16px !important;
         color: black !important;
-        padding: 11px 0 !important;
-        height: 20px !important;
+        line-height: 42px !important;
       }
       a.active {
         background: $light-grey !important;
-        line-height: 1.125em;
-        //padding: 11px 0 !important;
-        height: inherit !important;
-        //display: table !important;
 
       }
     }
@@ -156,19 +146,6 @@ $courseware-footer-shadow: $dark-grey;
     }
   }
 }
-}
-
-.sequence-list-wrapper {
-  ol {
-    li {
-      a.active {
-        height: 42px !important;
-        padding: 11px 0 !important;
-      }
-    }
-  }
-}
-
 
 .nav-colophon {
   li {
@@ -619,6 +596,7 @@ select {
 .xmodule_display.xmodule_HtmlModule {
   h2 {
     color: $orange !important;
+    font-weight: bold !important;
   }
 }
 
