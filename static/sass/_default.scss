@@ -678,3 +678,9 @@ select {
 div.course-wrapper {
   margin-bottom: 60px;
 }
+
+div.problem {
+  input[type="text"] {
+    width: 100% !important;
+  }
+}
