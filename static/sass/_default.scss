@@ -263,6 +263,11 @@ header.global.slim {
 }
 
 header.global {
+  .primary {
+    a {
+      background-image: -moz-linear-gradient(#fafafa 50%, #ededed 50%, #dcdcdc 100%) !important;
+    }
+  }
   .nav-global {
     li {
       a {
@@ -346,6 +351,7 @@ button {
   }
   .introduction {
     header {
+      background: none !important;
       .title {
         .title-super {
           color: black !important;
@@ -375,6 +381,7 @@ button {
   }
   .introduction {
     header {
+      background: none !important;
       .title {
         .title-sub {
           font-size: 18px !important;
@@ -512,8 +519,10 @@ select {
 }
 
 .references {
+  margin: 0 !important;
   span {
     color: white !important;
+    float: right !important;
     a {
       color: white !important;
     }
@@ -531,6 +540,7 @@ select {
 }
 
 .dashboard {
+  padding-bottom: 60px !important;
   .my-courses {
     a.email-settings {
       color: white !important;
