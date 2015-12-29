@@ -693,6 +693,25 @@ div.problem {
   }
 }
 
+.wiki {
+  padding-bottom: 0 !important;
+}
+
 section.wiki {
+  padding-top: 0 !important;
   padding-bottom: 60px !important;
+}
+
+.instructor-dashboard-wrapper-2 {
+  margin-bottom: 60px !important;
+}
+
+.slick-header-column.ui-state-default {
+  height: initial !important;
+}
+
+.instructor-dashboard-content-2 {
+  .slickgrid {
+    font-size: 16px !important;
+  }
 }
