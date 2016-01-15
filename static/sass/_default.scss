@@ -216,11 +216,6 @@ $footer-bg: linear-gradient(to bottom, rgb(53,53,73), rgb(37,37,54)); // $second
     text-align: right;
 }
 
-.find-courses {
-  background: url('../themes/default/static/images/background-repeat_retina.png') !important;
-  background-size: 393px 396px !important;
-}
-
 header.global {
   border-bottom: none;
 
@@ -415,6 +410,15 @@ header.global.slim {
 }
 
 .find-courses {
+  background: url('../themes/default/static/images/background-repeat_retina.png') !important;
+  background-size: 393px 396px !important;
+  .courses {
+    .course {
+      a {
+        z-index: 0;
+      }
+    }
+  }
   header.search {
     .inner-wrapper {
       hgroup {
