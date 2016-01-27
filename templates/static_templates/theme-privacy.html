@@ -1,6 +1,7 @@
-## mako
-<%! from django.core.urlresolvers import reverse %>
-<%namespace name='static' file='/static_content.html'/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Privacy")}</%block>
 
 <section class="container privacy">
   <h1>Privacy</h1>
