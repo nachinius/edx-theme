@@ -64,12 +64,13 @@ $courseware-footer-shadow: $dark-grey;
   }
   hgroup {
     h2 {
-      font-family: 'Open Sans' !important;
+      font-family: 'Helvetica' !important;
       font-size: 14px !important;
       color: white !important;
+      font-weight: 400 !important;
 
       span {
-        font-family: 'Open Sans' !important;
+        font-family: 'Helvetica' !important;
       }
     }
   }
@@ -87,14 +88,14 @@ $courseware-footer-shadow: $dark-grey;
 
 .bottom {
   span {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
     font-size: 14px !important;
   }
 }
 
 .references {
   span {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
   }
 }
 
@@ -150,7 +151,7 @@ nav.sequence-nav {
 .nav-colophon {
   li {
     a {
-      font-family: 'Open Sans' !important;
+      font-family: 'Helvetica' !important;
       font-size: 14px !important;
       color: white !important;
     }
@@ -158,39 +159,39 @@ nav.sequence-nav {
 }
 
 a.cta.cta-register {
-  font-family: 'Open Sans' !important;
+  font-family: 'Helvetica' !important;
   font-size: 16px !important;
   color: black !important;
 }
 
 a.cta.cta-login {
-  font-family: 'Open Sans' !important;
+  font-family: 'Helvetica' !important;
   font-size: 16px !important;
   color: black !important;
 }
 
 .meta-info {
   p {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
   }
 }
 
 .desc {
   h2 {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
   }
   p {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
     font-size: 14px !important;
     line-height: 22px !important;
   }
 }
 
 h1, h2 {
-  font-family: 'Open Sans' !important;
+  font-family: 'Helvetica' !important;
 
   span {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
   }
 }
 .logo img {
@@ -305,7 +306,7 @@ header.global.slim {
   }
 
 button {
-  font-family: 'Open Sans' !important;
+  font-family: 'Helvetica' !important;
 }
 
 .field {
@@ -317,7 +318,7 @@ button {
 
 .login {
   a {
-    font-family: 'Open Sans' !important;
+    font-family: 'Helvetica' !important;
     font-size: 14px !important;
   }
   a:link {
@@ -339,7 +340,7 @@ button {
 .view-login {
   .login {
     p {
-      font-family: 'Open Sans' !important;
+      font-family: 'Helvetica' !important;
     }
     aside {
       .cta {
@@ -365,11 +366,11 @@ button {
   .register {
     form {
       .instructions {
-        font-family: 'Open Sans' !important;
+        font-family: 'Helvetica' !important;
       }
     }
     p {
-      font-family: 'Open Sans' !important;
+      font-family: 'Helvetica' !important;
     }
     aside {
       .cta {
@@ -420,7 +421,7 @@ button {
 .openassessment {
   .step--response {
     .response__submission__status__title {
-      font-family: 'Open Sans' !important;
+      font-family: 'Helvetica' !important;
     }
   }
   .openassessment__steps__step {
@@ -432,7 +433,7 @@ button {
     }
     .step__status {
       .copy {
-        font-family:'Open Sans' !important;
+        font-family:'Helvetica' !important;
       }
     }
     .step__header {
@@ -448,7 +449,7 @@ button {
     li {
       a {
         span.copy {
-          font-family: 'Open Sans' !important;
+          font-family: 'Helvetica' !important;
         }
       }
     }
@@ -458,7 +459,7 @@ button {
 .wrapper--xblock {
   .field {
     .tip {
-      font-family: 'Open Sans' !important;
+      font-family: 'Helvetica' !important;
     }
   }
 }
@@ -468,7 +469,7 @@ button {
     .list--action__item {
       a {
         span.copy {
-          font-family: 'Open Sans' !important;
+          font-family: 'Helvetica' !important;
         }
       }
     }
@@ -479,11 +480,11 @@ button {
   .action--submit {
     .step--response__submit {
       .copy {
-        font-family: 'Open Sans' !important;
+        font-family: 'Helvetica' !important;
       }
       .is--disabled {
         .copy {
-          font-family: 'Open Sans' !important;
+          font-family: 'Helvetica' !important;
         }
       }
     }
@@ -491,7 +492,7 @@ button {
 }
 
 select {
-  font-family: 'Open Sans' !important;
+  font-family: 'Helvetica' !important;
 }
 
 .highlighted-courses {
