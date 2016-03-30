@@ -1,54 +1,4 @@
-$gray: #767676;
-$link-color: #8C0707;
-$link-color-d1: #8C0707;
-$link-hover: #8C0707;
 
-.home>header {
-  background-image: url("/static/themes/default/images/back.jpg") !important;
-  background-repeat-y: no-repeat;
-  background-position: center;
-  height: 520px !important;
-  .outer-wrapper {
-    padding: 392px 0 0 20px !important;
-    opacity: 0.7 !important;
-  }
-  .title {
-    max-height: 120px !important;
-    padding: 36px 30px !important;
-  }
-  .title>hgroup {
-    text-align: center !important;
-    vertical-align: middle !important;
-    width: 100%;
-    padding-bottom: 0 !important;
-
-    h1 {
-      text-align: center !important;
-      width: 100%;
-      line-height: 0.9em !important;
-    }
-  }
-}
-
-.find-courses {
-  background: #e1dad2 !important;
-  header.search {
-    margin-top: 0 !important;
-    height: 520px !important;
-    background-repeat-y: no-repeat;
-    background-position: center;
-    background-image: url("/static/themes/default/images/back.jpg") !important;
-
-    .inner-wrapper {
-      padding: 392px 0 0 20px !important;
-
-      hgroup {
-        box-shadow: none !important;
-      }
-
-    }
-  }
-}
 // header
 header.global {
   background: #5d422d !important;
@@ -163,37 +113,4 @@ header.global.slim {
     max-width: 65%;
     width: initial !important;
   }
-}
-
-
-.no-underscore {
-  a:hover {
-    border-bottom: none !important;
-  }
-}
-
-.raccoongang {
-  font-size: 10px;
-  color: #acaaab;
-  span {
-    float: left;
-  }
-  img {
-    height: 16px;
-    vertical-align: middle;
-    }
-}
-
-.content-wrapper {
-  background-color: #e1dad2 !important;
-}
-
-body.view-incourse {
-  .wrapper-footer {
-    margin-top: 0 !important;
-  }
-}
-
-.wrapper-preview-menu {
-  background-color: #e1dad2 !important;
 }
