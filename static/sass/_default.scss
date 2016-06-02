@@ -53,7 +53,7 @@ $link-hover: $link-color;
 header.global {
   background: #0078d7 !important;
   h1 {
-    margin: -7px 39px 0 0 !important;
+    margin: -11px 39px 0 0 !important;
   }
   .user>.primary:last-child>a.shopping-cart {
     margin-right: 0 !important;
@@ -157,7 +157,8 @@ header.global.slim {
   h1.logo {
     margin: 0 39px 0 0 !important;
     img {
-      margin-top: -16px;
+      margin-top: -11px;
+      height: 55px !important;
     }
   }
 
