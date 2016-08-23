@@ -6,69 +6,71 @@
 <%! from pytz import UTC %>
 
 <div class="wrapper wrapper-footer">
-##  <a href="http://code.edx.org" style="float:left; margin:2px 10px 0 0;">
-##    <img src="/static/themes/default/images/logo.png" alt="" height="17">
-##  </a>
-  <footer id="footer-openedx">
+    ##  <a href="http://code.edx.org" style="float:left; margin:2px 10px 0 0;">
+    ##    <img src="/static/themes/default/images/logo.png" alt="" height="17">
+    ##  </a>
 
-    <div class="colophon">
-      <div class="raccoon-block">
-        <a href="http://code.edx.org" target="_blank">
+    <footer id="footer-openedx">
+
+        <div class="colophon">
+            <div class="raccoon-block">
+                <a href="http://code.edx.org" target="_blank">
 
         <span class="raccoongang">
 
-    	  Built on <img src="${static.url('themes/default/images/openedx_logo.png')}" />
+    	  Built on <img src="${static.url('themes/default/images/openedx_logo.png')}"/>
         </span>
-        </a>
-        <a href="http://raccoongang.com" target="_blank">
+                </a>
+                <a href="http://raccoongang.com" target="_blank">
 
           <span class="raccoongang">
 
-    	    by Raccoon Gang <img src="${static.url('themes/default/images/RaccoonLogo.png')}" />
+    	    by Raccoon Gang <img src="${static.url('themes/default/images/RaccoonLogo.png')}"/>
           </span>
-        </a>
-  </div>
-      <nav class="nav-colophon">
-        <ol>
-          <li><a href="${reverse('tos')}">Terms of Service</a></li>
-          <li><a href="${reverse('privacy')}">Privacy Policy</a></li>
-          <li><a href="${reverse('about')}">About us</a></li>
-          ##<li><a href="${reverse('tos')}#honor">Honor Code</a></li>
-          ##<li><a href="${reverse('tos')}#copyright">Copyright</a></li>
+                </a>
+            </div>
+            <nav class="nav-colophon">
+                <ol>
+                    <li><a href="${reverse('tos')}">Terms of Service</a></li>
+                    <li><a href="${reverse('privacy')}">Privacy Policy</a></li>
+                    <li><a href="${reverse('about')}">About us</a></li>
+                    ##<li><a href="${reverse('tos')}#honor">Honor Code</a></li>
+                    ##<li><a href="${reverse('tos')}#copyright">Copyright</a></li>
           ##<li><a href="${reverse('about_edx')}#careers">Careers</a></li>
           ##<li><a href="${reverse('about_edx')}#contact">Contact</a></li>
           ##<li><a href="${marketing_link('JOBS')}#careers">Careers</a></li>
-          <li><a href="${marketing_link('CONTACT')}">Contact</a></li>
-          ##<li><a href="${marketing_link('FAQ')}">Help</a></li>
-        </ol>
-      </nav>
-<!--      <p class="copyright">
-        <span>Camara Education Inc. is a registered 501 (c)3 in the US</span><br>
-        <span> Camara Learning Limited is registered with the Charities Commission (1135540) in England</span><br>
-        <span>Camara Education Limited is registered with the Revenue Commissioners (CHY 16922) in Ireland</span>
-      </p> -->
-##      <nav class="nav-legal" aria-label="Legal">
-##        <ul>
-##            <li class="nav-legal-01">
-##              <a href="${reverse('tos')}#privacy">Privacy Policy</a>
-##            </li>
-##            <li class="nav-legal-02">
-##              <a href="${reverse('tos')}">Terms of Service</a>
-##            </li>
-##            <li class="nav-legal-03">
-##              <a href="${reverse('tos')}#about">About us</a>
-##            </li>
-##        </ul>
-##      </nav>
-    </div>
-    <div class="references">
-##       <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
-       <span>
+
+                    <li><a href="${marketing_link('CONTACT')}">Contact</a></li>
+                    ##<li><a href="${marketing_link('FAQ')}">Help</a></li>
+                  </ol>
+            </nav>
+            <!--      <p class="copyright">
+                    <span>Camara Education Inc. is a registered 501 (c)3 in the US</span><br>
+                    <span> Camara Learning Limited is registered with the Charities Commission (1135540) in England</span><br>
+                    <span>Camara Education Limited is registered with the Revenue Commissioners (CHY 16922) in Ireland</span>
+                  </p> -->
+            ##      <nav class="nav-legal" aria-label="Legal">
+            ##        <ul>
+            ##            <li class="nav-legal-01">
+            ##              <a href="${reverse('tos')}#privacy">Privacy Policy</a>
+            ##            </li>
+            ##            <li class="nav-legal-02">
+            ##              <a href="${reverse('tos')}">Terms of Service</a>
+            ##            </li>
+            ##            <li class="nav-legal-03">
+            ##              <a href="${reverse('tos')}#about">About us</a>
+            ##            </li>
+            ##        </ul>
+            ##      </nav>
+                </div>
+        <div class="references">
+            ##       <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
+                   <span>
          <a href="http://zanamedical.com/" target="_blank">
            <img src="/static/themes/default/images/logo.png" alt="" height="40">
          </a>
        </span>
-    </div>
-  </footer>
+        </div>
+    </footer>
 </div>
 
