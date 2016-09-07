@@ -1,0 +1,17 @@
+section.course-info {
+  //> div {
+  //  float: left;
+  //  width: 50%;
+  //}
+  .video-or-image {
+    float: left;
+    width: 50%;
+    > .media {
+      padding: 0px;
+    }
+  }
+  .title-and-details {
+    float: left;
+    width: 50%;
+  }
+}

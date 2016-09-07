@@ -202,3 +202,13 @@ body {
 .sequence-nav {
   display: none;
 }
+
+@import "course-info";
+
+.content-wrapper {
+  background-color: black;
+}
+
+nav.courseware {
+  display: none;
+}
