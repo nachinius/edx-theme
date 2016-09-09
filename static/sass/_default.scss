@@ -191,24 +191,63 @@ header.global.slim {
   }
 }
 
-.find-courses {
-  background: #fff !important;
-}
 
-body {
-  background: #fff !important;
-}
 
 .sequence-nav {
   display: none;
 }
 
-@import "course-info";
-
-.content-wrapper {
-  background-color: black;
+$background-color: #eeeeee;
+body {
+  background: $background-color !important;
+}
+.find-courses {
+  background: $background-color !important;
 }
 
-nav.courseware {
-  display: none;
+
+$white: $background-color !global;
+$black: invert($black) !global;
+$base-font-color: invert($base-font-color) !global;
+$border-color-2: invert($border-color-2) !global;
+//$link-color: $link-color) !global;
+$sidebar-chapter-bg: darken($background-color,10);
+$gray-d1: invert($gray-d1) !global;
+$success-color: invert($success-color) !global;
+$alert-color: invert($alert-color) !global;
+
+
+$gray-l3: invert($gray-l3) !global;
+$gray-l4: invert($gray-l4) !global;
+$gray-l5: invert($gray-l5) !global;
+//
+
+@import "course-info";
+@import "accordion";
+
+
+.container > div {
+  background-color: $background-color !important;
+  border: none;
+}
+body {
+  background-color: $background-color !important;
+}
+
+.xmodule_display.xmodule_VideoModule {
+  .video {
+    background-color: $background-color !important;
+    padding: 0px !important;;
+    margin:0px !important;;
+
+  }
+
+  // no title please
+  h2 {
+    display: none !important;
+  }
+}
+
+#course-content nav.sequence-bottom {
+  display: none !important;
 }

@@ -113,9 +113,9 @@ ${fragment.foot_html()}
 </%block>
 
 % if default_tab:
-  <%include file="/courseware/course_navigation.html" />
+   <%include file="/courseware/course_navigation.html" />
 % else:
-  <%include file="/courseware/course_navigation.html" args="active_page='courseware'" />
+   <%include file="/courseware/course_navigation.html" args="active_page='courseware'" />
 % endif
 
 <div class="container">
@@ -152,7 +152,8 @@ ${fragment.foot_html()}
             % endif
       % endif
 
-     <h1>Fragment body courseware.html in own theme</h1> ${fragment.body_html()}
+        ${fragment.body_html()}
+
     </section>
     % if settings.FEATURES.get('ENABLE_COURSEWARE_SEARCH'):
       <section id="courseware-search-results" class="search-results courseware-search-results" data-course-id="${course.id}">
